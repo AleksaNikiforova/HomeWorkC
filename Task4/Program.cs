@@ -1,12 +1,17 @@
-﻿int a = 2;
-int b = 3;
-int c = 7;
+﻿Console.Write("Введите первое число: ");
+int firstnumber = Convert.ToInt32(Console.ReadLine());
 
-int max = a;
+Console.Write("Введите второе число: ");
+int secondnumber = Convert.ToInt32(Console.ReadLine());
 
-if (a > max ) max = a;
-if (b > max ) max = b;
-if (c > max ) max = c;
+Console.Write("Введите третье число: ");
+int thirdnumber = Convert.ToInt32(Console.ReadLine());
+
+int max = firstnumber;
+
+if (firstnumber > max ) max = firstnumber;
+if (secondnumber > max ) max = secondnumber;
+if (thirdnumber > max ) max = thirdnumber;
 
 Console.Write("max = ");
 Console.WriteLine(max);
