@@ -1,13 +1,16 @@
-﻿int a = -9;
-int b = -39;
+﻿Console.Write("Введите первое число: ");
+int firstnumber = Convert.ToInt32(Console.ReadLine());
 
-if (a > b)  
+Console.Write("Введите второе число: ");
+int secondnumber = Convert.ToInt32(Console.ReadLine());
+
+if (firstnumber > secondnumber)  
 {
     Console.Write("max = ");
-    Console.WriteLine(a);
+    Console.WriteLine(firstnumber);
 }
 else
 {
     Console.Write("max = ");
-    Console.WriteLine(b);
+    Console.WriteLine(secondnumber);
 }
